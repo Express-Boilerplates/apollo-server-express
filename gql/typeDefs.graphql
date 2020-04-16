@@ -1,0 +1,8 @@
+type Query {
+	appName: String
+	helloWithAuth: String
+}
+
+type Mutation {
+	hello(name: String): String
+}
